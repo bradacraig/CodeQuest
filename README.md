@@ -1,35 +1,24 @@
-# Boilerplate: Fullstack with Sass
+# CodeQuest
 
-## Setup
+## What is it?
 
-### What's included
+CodeQuest is a simple interactive multichoice quiz to help fledgling developers brush up on JavaScript concepts.
+The idea was to create something that Dev Academy foundations students could use as a study aid before making the transition into bootcamp.
 
-This repo includes:
+## Who was involved?
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing Sass
+This was built during a friday group project at Dev Academy. These projects have a time limit of one day so have a bit of a hack-a-thon feel to them. I worked as part of a team of 5 students and took on the role of product owner, as well as writing some of the front end code.
 
-### Installation
+## Tech-Stack:
 
-#### **From the Github UI**
+- React 
+- Typescript
+- Tailwind
+- Express
+- KNEX.js
+- SQLite
+- Vite
 
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
+## Challenges
 
-#### **From the command line**
 
-```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
-
----
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)
